@@ -125,6 +125,12 @@ h1 > img {
 }
 
 @media(max-width: 640px){
+    .nav > a{
+      font-size: 14px;
+    }
+    .container > h1{
+      font-size: 56px;
+    }
     .container{
         display: flex;
         flex-direction: column;
